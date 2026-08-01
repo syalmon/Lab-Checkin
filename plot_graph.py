@@ -1,8 +1,11 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import datetime
 import os
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
 # 1. データの読み込み
@@ -96,6 +99,14 @@ readme_text = f"""# 🏃 平均週 {weekly_avg} 回でつーがく中！
 
 ___
 *最終更新: {last_update}*
+
+## セットアップ
+
+初回だけ `setup.bat` を実行してください。依存関係は uv で `.venv` に構築されます。
+
+## 出席登録
+
+普段は `auto_start.bat` を実行してください。Docker や Git Bash は必要ありません。
 """
 
 with open("README.md", "w", encoding="utf-8") as f:
