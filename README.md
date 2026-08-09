@@ -1,10 +1,10 @@
-# 🏃 平均週 2.8 回でつーがく中！
+# 🏃 平均週 2.7 回でつーがく中！
 <p align="center">
   <img src="./monthly_report.png" alt="Attendance Calendar">
 </p>
 
 ___
-*最終更新: 2026-08-02*
+*最終更新: 2026-08-09*
 
 ## セットアップ
 
